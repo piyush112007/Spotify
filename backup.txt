@@ -1,0 +1,1 @@
+    <img src="Spotify-Logo.wine.svg" id="logo" alt="" />

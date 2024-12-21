@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+#logo {
+  height: 40px;
+}
+.left {
+  width: 25vw;
+}
+.library {
+  background-color: #1f1f1f;
+}
+#library-icon {
+  width: 40px;
+}
+.right {
+  width: 75vw;
+}
