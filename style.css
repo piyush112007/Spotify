@@ -1,20 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url(https://db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=CircularSpotifyTxT-Black);
 * {
   margin: 0;
   padding: 0;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "CircularSpotifyTxT-Black";
 }
 
-body {
-  background-color: black;
-  color: white;
-}
 #logo {
   height: 40px;
 }
 .left {
   width: 25vw;
+  padding: 10px;
 }
 .library {
-  background-color: #121212;
+  /* background-color: #121212; */
 }
 #library-icon {
   width: 40px;
