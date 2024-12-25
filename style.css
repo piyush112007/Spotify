@@ -6,20 +6,68 @@
   /* font-family: "Roboto", sans-serif; */
   font-family: "CircularSpotifyTxT-Black";
 }
-
-#logo {
-  height: 40px;
+.body {
+  background-color: black;
+  color: white;
+}
+.logo {
+  /* height: 40px; */
+  padding-left: 16px;
 }
 .left {
   width: 25vw;
   padding: 10px;
 }
+.right {
+  width: 75vw;
+}
+.heading {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  padding-top: 14px;
+  padding: 23px 14px;
+  font-weight: bold;
+  align-items: center;
+  font-size: 13px;
+}
 .library {
-  /* background-color: #121212; */
+  min-height: 80vh;
+  position: relative;
 }
 #library-icon {
-  width: 40px;
+  width: 30px;
 }
 .right {
   width: 75vw;
+}
+.footer {
+  display: flex;
+  font-size: 10px;
+  gap: 13px;
+  position: absolute;
+  bottom: 0;
+}
+.footer a {
+  color: grey;
+}
+
+.header button {
+  background-color: #121212;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); */
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.home {
+  padding-top: 5px;
+}
+
+.header button:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
 }

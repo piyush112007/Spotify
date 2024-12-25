@@ -15,6 +15,9 @@
   background-color: black;
   color: white;
 }
+.inverthalf {
+  filter: invert(0.5);
+}
 .invert {
   filter: invert(1);
 }
